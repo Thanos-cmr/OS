@@ -15,9 +15,6 @@ printf("failed to create child");
 else if(pid==0)
 {
 printf("after fork\n");
-CMR Institute of Technology Page 62
-II B.Tech II semester(CSE) CN&OS LAB
-CMR Institute of Technology Page 63
 global++;
 local++;
 }
